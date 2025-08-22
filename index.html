@@ -5,147 +5,207 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vaulk Letterboxes</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;700&display=swap" rel="stylesheet">
     <style>
-        /* Custom COLORSTEEL palette usage via Tailwind arbitrary values */
         body {
-            background-color: #D8D6CC; /* Titania - warm pale neutral */
-            color: #1C2526; /* Ebony - deep near-black */
+            background-color: #FFFFFF; /* Pure white */
+            color: #2A2B2A; /* FlaxPod Matte */
+            font-family: 'Comfortaa', sans-serif;
+        }
+        hr {
+            border: 0;
+            border-top: 1px solid #2A2B2A; /* FlaxPod Matte for clean lines */
+            margin: 2rem 0;
         }
     </style>
 </head>
-<body class="font-sans antialiased">
+<body class="antialiased">
 
     <!-- Header -->
-    <header class="bg-[#3F4A55] text-white py-8"> <!-- Grey Friars -->
+    <header class="py-12 border-b border-[#2A2B2A]">
         <div class="container mx-auto px-4 max-w-4xl">
-            <h1 class="text-5xl font-bold text-center">Vaulk Letterboxes</h1>
-            <p class="text-xl text-center mt-2">Durable, Stylish Letterboxes Made for New Zealand</p>
+            <h1 class="text-5xl font-bold text-center tracking-tight">Vaulk Letterboxes</h1>
+            <p class="text-lg text-center mt-4 opacity-80">Durable, Stylish Letterboxes Designed for New Zealand</p>
+            <div class="flex justify-center space-x-6 mt-6">
+                <a href="#section1" class="text-sm font-medium hover:underline">Purpose</a>
+                <a href="#section2" class="text-sm font-medium hover:underline">Concepts</a>
+                <a href="#section3" class="text-sm font-medium hover:underline">Feedback</a>
+                <a href="#section4" class="text-sm font-medium hover:underline">About</a>
+            </div>
         </div>
     </header>
-
-    <!-- Navigation -->
-    <nav class="bg-[#4A4B44] text-white py-4 sticky top-0 z-10"> <!-- Ironsand -->
-        <div class="container mx-auto px-4 max-w-4xl">
-            <ul class="flex justify-center space-x-8">
-                <li><a href="#section1" class="hover:underline">Build a Better Letterbox</a></li>
-                <li><a href="#section2" class="hover:underline">Concept for Feedback</a></li>
-                <li><a href="#section3" class="hover:underline">Your Feedback</a></li>
-                <li><a href="#section4" class="hover:underline">About Us</a></li>
-            </ul>
-        </div>
-    </nav>
 
     <!-- Section 1: Build a Better Letterbox -->
     <section id="section1" class="py-16">
         <div class="container mx-auto px-4 max-w-4xl">
-            <h2 class="text-4xl font-bold mb-6 text-center">Build a Better Letterbox</h2>
-            <p class="text-lg mb-4">In New Zealand, our homes face harsh weather conditions – from heavy rain to strong winds and corrosive salt air in coastal areas. Traditional letterboxes often fall short: they rust, fade, and fail to complement modern home designs. At Vaulk Letterboxes, we're addressing this problem by creating durable, aesthetically pleasing letterboxes that stand the test of time.</p>
-            <p class="text-lg mb-4">We're doing this because we believe every home deserves functional and beautiful outdoor features. Your feedback is crucial – it helps us understand real-world needs, preferences, and pain points from Kiwis across the country.</p>
-            <p class="text-lg">We'll use your input to refine our designs, improve features, and ensure our products meet the highest standards. Join us in building better letterboxes for New Zealand!</p>
+            <h2 class="text-4xl font-bold mb-6 tracking-tight">Build a Better Letterbox</h2>
+            <hr class="mb-8">
+            <p class="text-lg mb-4 leading-relaxed">New Zealand’s harsh weather—rain, wind, and coastal salt air—demands more from letterboxes. Traditional designs often rust, fade, or fail to match modern aesthetics. At Vaulk Letterboxes, we’re crafting durable, elegant solutions that endure.</p>
+            <p class="text-lg mb-4 leading-relaxed">Our mission is to elevate everyday home features with functional beauty. Your feedback shapes our designs, ensuring they meet real-world needs across New Zealand.</p>
+            <p class="text-lg leading-relaxed">Share your insights to help us refine features and deliver exceptional quality. Together, let’s redefine the letterbox for New Zealand homes.</p>
         </div>
     </section>
 
     <!-- Section 2: Concept for Feedback -->
-    <section id="section2" class="py-16 bg-[#A8B0B2]"> <!-- Gull Grey -->
+    <section id="section2" class="py-16 bg-[#F9FAFB]">
         <div class="container mx-auto px-4 max-w-4xl">
-            <h2 class="text-4xl font-bold mb-6 text-center">Concept for Feedback</h2>
-            <p class="text-lg mb-8">We're excited to share our three prototype designs. These letterboxes are crafted from high-quality COLORSTEEL® pre-painted steel, designed to withstand New Zealand's tough environment. They feature secure locking mechanisms, ample space for mail, and customizable mounting options.</p>
+            <h2 class="text-4xl font-bold mb-6 tracking-tight">Concept for Feedback</h2>
+            <hr class="mb-8">
+            <p class="text-lg mb-8 leading-relaxed">Explore our three prototype designs, built with COLORSTEEL® pre-painted steel to withstand New Zealand’s elements. Each features secure locks, ample mail capacity, and versatile mounting options.</p>
             
-            <!-- Prototype Images (Placeholders - replace with actual image URLs) -->
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
-                <div>
-                    <img src="https://via.placeholder.com/400x300?text=Prototype+1" alt="Prototype 1" class="w-full rounded-lg shadow-lg">
-                    <p class="text-center mt-2 font-semibold">Prototype 1: Modern Slim Design</p>
+            <!-- Prototype Images -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
+                <div class="bg-white border border-[#2A2B2A] rounded-lg shadow-sm">
+                    <img src="https://via.placeholder.com/400x300?text=Prototype+1" alt="Prototype 1" class="w-full rounded-t-lg">
+                    <p class="text-center py-4 font-medium">Modern Slim Design</p>
                 </div>
-                <div>
-                    <img src="https://via.placeholder.com/400x300?text=Prototype+2" alt="Prototype 2" class="w-full rounded-lg shadow-lg">
-                    <p class="text-center mt-2 font-semibold">Prototype 2: Classic Box Style</p>
+                <div class="bg-white border border-[#2A2B2A] rounded-lg shadow-sm">
+                    <img src="https://via.placeholder.com/400x300?text=Prototype+2" alt="Prototype 2" class="w-full rounded-t-lg">
+                    <p class="text-center py-4 font-medium">Classic Box Style</p>
                 </div>
-                <div>
-                    <img src="https://via.placeholder.com/400x300?text=Prototype+3" alt="Prototype 3" class="w-full rounded-lg shadow-lg">
-                    <p class="text-center mt-2 font-semibold">Prototype 3: Wall-Mounted Variant</p>
+                <div class="bg-white border border-[#2A2B2A] rounded-lg shadow-sm">
+                    <img src="https://via.placeholder.com/400x300?text=Prototype+3" alt="Prototype 3" class="w-full rounded-t-lg">
+                    <p class="text-center py-4 font-medium">Wall-Mounted Variant</p>
                 </div>
             </div>
             
-            <p class="text-lg mb-4">Why it works: Our letterboxes are corrosion-resistant, UV-stable, and easy to install. They blend seamlessly with your home's exterior while providing reliable protection for your mail.</p>
-            <p class="text-lg mb-4">Materials: We use COLORSTEEL® steel with ACTIVATE™ technology for superior durability in NZ's variable climate. It's lightweight yet strong, and environmentally friendly.</p>
-            <p class="text-lg mb-4">Color Options: Choose from the 2025 COLORSTEEL® range to match your home. Here are some popular options:</p>
+            <p class="text-lg mb-4 leading-relaxed">Why it works: Our letterboxes are corrosion-resistant, UV-stable, and easy to install, blending seamlessly with your home’s exterior.</p>
+            <p class="text-lg mb-4 leading-relaxed">Materials: Crafted with COLORSTEEL® steel and ACTIVATE™ technology for durability in New Zealand’s climate—lightweight, strong, and eco-friendly.</p>
+            <p class="text-lg mb-8 leading-relaxed">Color Options: Select from the 2025 COLORSTEEL® Matte or Standard Range to complement your home.</p>
             
             <!-- Color Swatches -->
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
-                <div class="flex items-center">
-                    <div class="w-10 h-10 rounded mr-2" style="background-color: #4A4B44;"></div> <!-- Ironsand -->
-                    <span>Ironsand</span>
+            <h3 class="text-2xl font-bold mb-4 tracking-tight">Matte Range</h3>
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-12">
+                <div class="flex items-center bg-white border border-[#2A2B2A] rounded-lg p-3">
+                    <div class="w-8 h-8 rounded mr-3" style="background-color: #7A7C7A;"></div> <!-- StonePeak Matte -->
+                    <span class="font-medium">StonePeak Matte</span>
                 </div>
-                <div class="flex items-center">
-                    <div class="w-10 h-10 rounded mr-2" style="background-color: #3F4A55;"></div> <!-- Grey Friars -->
-                    <span>Grey Friars</span>
+                <div class="flex items-center bg-white border border-[#2A2B2A] rounded-lg p-3">
+                    <div class="w-8 h-8 rounded mr-3" style="background-color: #B0B7B9;"></div> <!-- TidalDrift Matte -->
+                    <span class="font-medium">TidalDrift Matte</span>
                 </div>
-                <div class="flex items-center">
-                    <div class="w-10 h-10 rounded mr-2" style="background-color: #8A8D8A;"></div> <!-- Sandstone Grey -->
-                    <span>Sandstone Grey</span>
-                </div>
-                <div class="flex items-center">
-                    <div class="w-10 h-10 rounded mr-2" style="background-color: #2F3D2F;"></div> <!-- Karaka -->
-                    <span>Karaka</span>
-                </div>
-                <div class="flex items-center">
-                    <div class="w-10 h-10 rounded mr-2" style="background-color: #D8D6CC;"></div> <!-- Titania -->
-                    <span>Titania</span>
-                </div>
-                <div class="flex items-center">
-                    <div class="w-10 h-10 rounded mr-2" style="background-color: #1C2526;"></div> <!-- Ebony -->
-                    <span>Ebony</span>
-                </div>
-                <div class="flex items-center">
-                    <div class="w-10 h-10 rounded mr-2" style="background-color: #2A2B2A;"></div> <!-- FlaxPod -->
-                    <span>FlaxPod</span>
-                </div>
-                <div class="flex items-center">
-                    <div class="w-10 h-10 rounded mr-2" style="background-color: #A8B0B2;"></div> <!-- Gull Grey -->
-                    <span>Gull Grey</span>
-                </div>
-                <div class="flex items-center">
-                    <div class="w-10 h-10 rounded mr-2" style="background-color: #3B5E7B;"></div> <!-- New Denim Blue -->
-                    <span>New Denim Blue</span>
-                </div>
-                <div class="flex items-center">
-                    <div class="w-10 h-10 rounded mr-2" style="background-color: #7A7055;"></div> <!-- Lichen -->
-                    <span>Lichen</span>
+                <div class="flex items-center bg-white border border-[#2A2B2A] rounded-lg p-3">
+                    <div class="w-8 h-8 rounded mr-3" style="background-color: #2A2B2A;"></div> <!-- FlaxPod Matte -->
+                    <span class="font-medium">FlaxPod Matte</span>
                 </div>
             </div>
             
-            <p class="text-lg">We invite your feedback on these concepts! Tell us what you like, what could be improved, and any features you'd love to see.</p>
+            <h3 class="text-2xl font-bold mb-4 tracking-tight">Standard Range</h3>
+            <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-12">
+                <div class="flex items-center bg-white border border-[#2A2B2A] rounded-lg p-3">
+                    <div class="w-8 h-8 rounded mr-3" style="background-color: #5B6A4C;"></div> <!-- TuiTuft -->
+                    <span class="font-medium">TuiTuft</span>
+                </div>
+                <div class="flex items-center bg-white border border-[#2A2B2A] rounded-lg p-3">
+                    <div class="w-8 h-8 rounded mr-3" style="background-color: #E1E2E4;"></div> <!-- Cloud -->
+                    <span class="font-medium">Cloud</span>
+                </div>
+                <div class="flex items-center bg-white border border-[#2A2B2A] rounded-lg p-3">
+                    <div class="w-8 h-8 rounded mr-3" style="background-color: #D8D6CC;"></div> <!-- Titania -->
+                    <span class="font-medium">Titania</span>
+                </div>
+                <div class="flex items-center bg-white border border-[#2A2B2A] rounded-lg p-3">
+                    <div class="w-8 h-8 rounded mr-3" style="background-color: #D9C7A6;"></div> <!-- Sandscape -->
+                    <span class="font-medium">Sandscape</span>
+                </div>
+                <div class="flex items-center bg-white border border-[#2A2B2A] rounded-lg p-3">
+                    <div class="w-8 h-8 rounded mr-3" style="background-color: #A8B0B2;"></div> <!-- Gull Grey -->
+                    <span class="font-medium">Gull Grey</span>
+                </div>
+                <div class="flex items-center bg-white border border-[#2A2B2A] rounded-lg p-3">
+                    <div class="w-8 h-8 rounded mr-3" style="background-color: #8A8D8A;"></div> <!-- Sandstone Grey -->
+                    <span class="font-medium">Sandstone Grey</span>
+                </div>
+                <div class="flex items-center bg-white border border-[#2A2B2A] rounded-lg p-3">
+                    <div class="w-8 h-8 rounded mr-3" style="background-color: #C2B5A0;"></div> <!-- SandBar -->
+                    <span class="font-medium">SandBar</span>
+                </div>
+                <div class="flex items-center bg-white border border-[#2A2B2A] rounded-lg p-3">
+                    <div class="w-8 h-8 rounded mr-3" style="background-color: #7A7055;"></div> <!-- Lichen -->
+                    <span class="font-medium">Lichen</span>
+                </div>
+                <div class="flex items-center bg-white border border-[#2A2B2A] rounded-lg p-3">
+                    <div class="w-8 h-8 rounded mr-3" style="background-color: #A7B8A8;"></div> <!-- Mist Green -->
+                    <span class="font-medium">Mist Green</span>
+                </div>
+                <div class="flex items-center bg-white border border-[#2A2B2A] rounded-lg p-3">
+                    <div class="w-8 h-8 rounded mr-3" style="background-color: #355E3B;"></div> <!-- Permanent Green -->
+                    <span class="font-medium">Permanent Green</span>
+                </div>
+                <div class="flex items-center bg-white border border-[#2A2B2A] rounded-lg p-3">
+                    <div class="w-8 h-8 rounded mr-3" style="background-color: #8B2F2F;"></div> <!-- Pioneer Red -->
+                    <span class="font-medium">Pioneer Red</span>
+                </div>
+                <div class="flex items-center bg-white border border-[#2A2B2A] rounded-lg p-3">
+                    <div class="w-8 h-8 rounded mr-3" style="background-color: #4A4B44;"></div> <!-- Ironsand -->
+                    <span class="font-medium">Ironsand</span>
+                </div>
+                <div class="flex items-center bg-white border border-[#2A2B2A] rounded-lg p-3">
+                    <div class="w-8 h-8 rounded mr-3" style="background-color: #2F3D2F;"></div> <!-- Karaka -->
+                    <span class="font-medium">Karaka</span>
+                </div>
+                <div class="flex items-center bg-white border border-[#2A2B2A] rounded-lg p-3">
+                    <div class="w-8 h-8 rounded mr-3" style="background-color: #3B5E7B;"></div> <!-- New Denim Blue -->
+                    <span class="font-medium">New Denim Blue</span>
+                </div>
+                <div class="flex items-center bg-white border border-[#2A2B2A] rounded-lg p-3">
+                    <div class="w-8 h-8 rounded mr-3" style="background-color: #3F4A55;"></div> <!-- Grey Friars -->
+                    <span class="font-medium">Grey Friars</span>
+                </div>
+                <div class="flex items-center bg-white border border-[#2A2B2A] rounded-lg p-3">
+                    <div class="w-8 h-8 rounded mr-3" style="background-color: #5C6166;"></div> <!-- Thunder Grey -->
+                    <span class="font-medium">Thunder Grey</span>
+                </div>
+                <div class="flex items-center bg-white border border-[#2A2B2A] rounded-lg p-3">
+                    <div class="w-8 h-8 rounded mr-3" style="background-color: #464B50;"></div> <!-- Windsor Grey -->
+                    <span class="font-medium">Windsor Grey</span>
+                </div>
+                <div class="flex items-center bg-white border border-[#2A2B2A] rounded-lg p-3">
+                    <div class="w-8 h-8 rounded mr-3" style="background-color: #3A3F44;"></div> <!-- Slate -->
+                    <span class="font-medium">Slate</span>
+                </div>
+                <div class="flex items-center bg-white border border-[#2A2B2A] rounded-lg p-3">
+                    <div class="w-8 h-8 rounded mr-3" style="background-color: #2A2B2A;"></div> <!-- FlaxPod -->
+                    <span class="font-medium">FlaxPod</span>
+                </div>
+                <div class="flex items-center bg-white border border-[#2A2B2A] rounded-lg p-3">
+                    <div class="w-8 h-8 rounded mr-3" style="background-color: #1C2526;"></div> <!-- Ebony -->
+                    <span class="font-medium">Ebony</span>
+                </div>
+            </div>
+            
+            <p class="text-lg leading-relaxed">We invite your feedback on these concepts. Share what you love, suggest improvements, or propose new features to help shape our designs.</p>
         </div>
     </section>
 
     <!-- Section 3: Your Feedback Here -->
     <section id="section3" class="py-16">
         <div class="container mx-auto px-4 max-w-4xl">
-            <h2 class="text-4xl font-bold mb-6 text-center">Your Feedback Here</h2>
-            <p class="text-lg mb-8 text-center">Share your thoughts via our quick Google Form. Your responses will be saved to a spreadsheet for our team to review.</p>
-            <!-- Embed Google Form -->
+            <h2 class="text-4xl font-bold mb-6 tracking-tight">Your Feedback</h2>
+            <hr class="mb-8">
+            <p class="text-lg mb-8 leading-relaxed text-center">Share your thoughts via our quick form. Responses are saved to a spreadsheet for our team to review.</p>
             <div class="flex justify-center">
-                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe7CMSbfz7kGwxi4fUJyKwAegWThb99G4DlcckSCJDKMBewGg/viewform?embedded=true" class="w-full max-w-2xl" height="986" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe7CMSbfz7kGwxi4fUJyKwAegWThb99G4DlcckSCJDKMBewGg/viewform?embedded=true" class="w-full max-w-2xl border border-[#2A2B2A] rounded-lg" height="986" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
             </div>
         </div>
     </section>
 
     <!-- Section 4: About Us -->
-    <section id="section4" class="py-16 bg-[#8A8D8A]"> <!-- Sandstone Grey -->
+    <section id="section4" class="py-16">
         <div class="container mx-auto px-4 max-w-4xl">
-            <h2 class="text-4xl font-bold mb-6 text-center">About Us</h2>
-            <p class="text-lg mb-4">I'm [Your Name], the founder of Vaulk Letterboxes. As a lifelong New Zealander with a background in design and manufacturing, I've always been passionate about creating practical solutions for everyday problems.</p>
-            <p class="text-lg mb-4">This project started from my own frustration with subpar letterboxes that didn't last. I saw an opportunity to innovate using local materials like COLORSTEEL®, and now I'm turning that vision into reality.</p>
-            <p class="text-lg">Our goal is to provide high-quality, NZ-made letterboxes that enhance your home's curb appeal while standing up to our unique climate. Thank you for being part of this journey!</p>
+            <h2 class="text-4xl font-bold mb-6 tracking-tight">About Us</h2>
+            <hr class="mb-8">
+            <p class="text-lg mb-4 leading-relaxed">I'm [Your Name], the founder of Vaulk Letterboxes. As a lifelong New Zealander with a passion for design and manufacturing, I’m driven to solve everyday challenges.</p>
+            <p class="text-lg mb-4 leading-relaxed">This project was born from frustration with letterboxes that couldn’t withstand New Zealand’s elements. Using premium COLORSTEEL® materials, I’m crafting solutions that last.</p>
+            <p class="text-lg leading-relaxed">Our goal is to deliver NZ-made letterboxes that elevate your home’s aesthetic while thriving in our unique climate. Thank you for joining us on this journey.</p>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer class="bg-[#2F3D2F] text-white py-4"> <!-- Karaka -->
+    <footer class="py-8 border-t border-[#2A2B2A]">
         <div class="container mx-auto px-4 max-w-4xl text-center">
-            <p>&copy; 2025 Vaulk Letterboxes. All rights reserved.</p>
-            <p>Contact: info@vaulkletterboxes.co.nz</p>
+            <p class="text-sm">&copy; 2025 Vaulk Letterboxes. All rights reserved.</p>
+            <p class="text-sm mt-2">Contact: <a href="mailto:info@vaulkletterboxes.co.nz" class="hover:underline">info@vaulkletterboxes.co.nz</a></p>
         </div>
     </footer>
 
